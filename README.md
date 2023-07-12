@@ -2,7 +2,7 @@
 
 # Project: Airbn Clone
 
-> A clone of the official airbnb home page with minimal design...
+A clone of the official airbnb home page with minimal design...
 
 # Screenshot
 ![](.Assets/mock.png)
@@ -30,8 +30,6 @@
 [-] Navigate into the project folder
 
     $ cd airbnb-clone-TheGym
-
->Note: The Dependencies to be install will be used for linters configuration
 
 [-] Install dependencies of the project using `npm` package manager
 
