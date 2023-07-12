@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="wrapper flex justify-between items-center py-4 max-h-[70px] border ">
-      <div class="logo max-w-[10%] min-w-[2%]">
+      <div class="logo max-w-[10%] min-w-[2%] hidden md:block">
         <img src="./Assets/images/Airbnb_Logo.png" alt="" srcset="" class="w-[inheret]">
       </div>
       <div class="search flex justify-evenly items-center border rounded-full py-1 px-2 box-shadow-lg shadow-gray-500">
@@ -20,10 +20,10 @@
           <span class="material-symbols-outlined bg-red-400 text-white rounded-full p-1">search</span>
         </span>
       </div>
-      <div class="account">
-        <span>Airbnb your home</span>
+      <div class="account hidden md:flex justify-between items-center gap-6">
+        <span class="font-medium">Airbnb your home</span>
         <span class="material-symbols-outlined">language</span>
-        <span>
+        <span class="flex justify-between gap-2 border rounded-full p-3">
           <span class="material-symbols-outlined">menu</span>
           <span class="material-symbols-outlined">account_circle</span>
         </span>
